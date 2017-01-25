@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+	<!-- Meta tags & title /-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- <meta name="robots" content="all,index,follow" /> -->
+
+	<title>Scroll To Top Then Fixed Navigation Effect With JQuery and CSS</title>
+	<meta name="description" content="Create a sticky navigation bar that remains fixed to the top after scroll" />
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- Main stylesheet /-->
+
+</head>
+
+<body>
+
+<section id="screen1">
+
+	<!-- NEWSLETTER OPTIN  -->
+<!-- <div style="background-color: #F3FAB6; width: 100%; height: auto; padding: 10px;"> -->
+<div>
+<div style="float: left; padding-top: 90px; padding-left: 60px;"><img src="Website_Tips_Book_Cover_640_1.png" height="33%" width="200px;" alt="book"></div>
+<!-- <div class="newsletter"> -->
+<div class="optin">
+<h1>Yours Free: 101 Website Tips Even Your Web Developer Will be Excited to Learn</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, asperiores nesciunt cum laudantium voluptatum, ullam dicta tempora nulla culpa, placeat et nobis voluptatem harum ipsa est. Deserunt dolor, consequuntur ut!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam natus perspiciatis aperiam quidem nobis maiores repudiandae numquam accusamus soluta ipsa officia delectus ratione, reiciendis eveniet quam totam odit tenetur voluptatibus.</p>
+<div>
+<button class="textalign newsletterbutton">Get it Now!</button>
+</div>
+<!-- </div> -->
+<!-- </div></div> -->
+
+<!-- NEWSLETTER OPTIN  -->
+
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+</section>
+	
+<section id="screen2"></section>
+<section id="screen3"></section>
+<section id="screen4"></section>
+<section id="screen5"></section>
+<section id="screen6"></section>
+<section id="screen7"></section>
+<section id="screen8"></section>
+<section id="screen9"></section>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+   $(document).ready(function(){
+	   $(window).bind('scroll', function() {
+	   var navHeight = $( window ).height() - 70;
+			 if ($(window).scrollTop() > navHeight) {
+				 $('nav').addClass('fixed');
+			 }
+			 else {
+				 $('nav').removeClass('fixed');
+			 }
+		});
+	});
+</script>
+
+</body>
+</html>

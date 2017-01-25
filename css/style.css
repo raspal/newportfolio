@@ -1,0 +1,133 @@
+/*
+Tutorial Name: Scroll To Top Then Fixed Navigation Effect With JQuery and CSS
+Description: Create a sticky navigation bar that remains fixed to the top after scroll
+Author: Stanislav Kostadinov
+Author URI: http://stanislav.it
+Version: 1.0.0 - 11.01.2014
+*/
+
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+/* This class is added on scroll */
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 70px; 
+	z-index: 1;
+}
+
+body {
+	color: #fff;
+	font-family: 'open-sans-bold'; 
+	font-size: 18px;
+	text-align: justify;
+}
+
+/* Font Face Settings */
+@font-face {
+    font-family: 'open-sans-bold';
+	src: url('../fonts/open-sans/OpenSans-Bold.eot');
+    src: url('../fonts/open-sans/OpenSans-Bold.eot?iefix') format('embedded-opentype'),
+		 url('../fonts/open-sans/OpenSans-Bold.ttf');
+    font-weight: normal;
+}	
+
+/* Navigation Settings */
+nav {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	background: #CC0000;
+}
+
+nav li {
+	display: inline-block;
+	padding: 24px 10px;
+}
+
+nav li a {
+	color: /*#757575;*/ #ffffff;
+	text-transform: uppercase;
+}
+
+section {
+	height: 100vh;
+}
+.optin {
+	color: #000000;
+	padding-top: 75px;
+	padding-left: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.8em;
+}
+
+/* Screens Settings */
+#screen1 {	
+	background: /*#43b29d;*/ #F3FAB6;
+	border-bottom: 10px solid #CC0000;
+}
+
+/*#screen1 p {
+	padding-left: 20px;
+}*/
+
+#screen2 {
+	background: /*#efc94d;*/ #CBE32D;
+	border-bottom: 10px solid #CC0000;
+}
+
+#screen3 {
+	background: /*#e1793d;*/ #A8CD1B;
+	border-bottom: 10px solid #CC0000;
+}
+
+#screen4 {
+	background: /*#e1793d;*/ #ADD8E6;
+	border-bottom: 10px solid #CC0000;
+}
+
+#screen5 {
+	background: /*#e1793d;*/ #D0D0D0;
+	border-bottom: 10px solid #CC0000;
+}
+
+#screen6 {
+	background: /*#e1793d;*/ #005A31;
+	border-bottom: 10px solid #CC0000;
+}
+
+#screen7 {
+	background: /*#e1793d;*/ #B4151B;
+	border-bottom: 10px solid #CC0000;
+}
+
+#screen8 {
+	background: /*#e1793d;*/ #3B3B3B;
+}
+
+#screen9 {
+	background: /*#e1793d;*/ #292929;
+	height: 100px;
+}
+
+@media only screen and (max-width: 520px) {
+
+	nav li {
+		padding: 24px 4px;
+	}
+
+	nav li a {
+		font-size: 14px;
+	}
+
+}
+
+
+
+
