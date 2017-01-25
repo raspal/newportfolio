@@ -14,7 +14,7 @@ body {
 	color: #fff;
 	font-family: 'open-sans-bold'; 
 	font-size: 18px;
-	text-align: justify;
+	text-align: center;
 }
 
 h1 {
@@ -38,6 +38,7 @@ nav {
 	width: 100%;
 	height: 70px;
 	background: #CC0000;
+	text-align: center;
 }
 
 nav li {
@@ -54,30 +55,14 @@ section {
 	height: 100vh;
 }
 
-img {
-	padding-right: 10px;
-}
-
-button {
-	/*margin: auto;*/
-	width: 180px;
-	height: 80px;
-	background-color: orange;
-	border-color: orange;
-	font-size: 32px;
-	/*margin: 0% 50%;*/
-  	top:50%; 
-  	left:50%;
-}
-
 p {
 	margin: auto;
-	width: 50%;
+	width: 60%;
 	/*border: 20px solid #bdc3c7; #f1f1f1;*/
 	padding: 10px;
 	/*background-color: #f1f1f1;*/
 	text-align: justify;
-	}
+}
 
 /* Newsletter Optin Styles */
 .optin {
@@ -86,46 +71,55 @@ p {
 }
 
 /* Screens Settings */
-#screen1 {	
+#optin {	
 	background: #F3FAB6;
 	border-bottom: 10px solid #CC0000;
 }
 
-#screen2 {
+<section id="portfolio"></section>
+<section id="services"></section>
+<section id="blog"></section>
+<section id="testimonials"></section>
+<section id="aboutme"></section>
+<section id="hireme"></section>
+<section id="footersection"></section>
+<section id="social"></section>
+
+#portfolio {
 	background: #CBE32D;
 	border-bottom: 10px solid #CC0000;
 }
 
-#screen3 {
+#services {
 	background: #A8CD1B;
 	border-bottom: 10px solid #CC0000;
 }
 
-#screen4 {
+#blog {
 	background: #ADD8E6;
 	border-bottom: 10px solid #CC0000;
 }
 
-#screen5 {
+#testimonials {
 	background: #D0D0D0;
 	border-bottom: 10px solid #CC0000;
 }
 
-#screen6 {
+#aboutme {
 	background: #005A31;
 	border-bottom: 10px solid #CC0000;
 }
 
-#screen7 {
+#hireme {
 	background: #B4151B;
 	border-bottom: 10px solid #CC0000;
 }
 
-#screen8 {
+#footersection {
 	background: #3B3B3B;
 }
 
-#screen9 {
+#social {
 	background: #292929;
 	height: 100px;
 }
