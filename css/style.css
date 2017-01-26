@@ -76,18 +76,14 @@ p {
 	border-bottom: 10px solid #CC0000;
 }
 
-<section id="portfolio"></section>
-<section id="services"></section>
-<section id="blog"></section>
-<section id="testimonials"></section>
-<section id="aboutme"></section>
-<section id="hireme"></section>
-<section id="footersection"></section>
-<section id="social"></section>
-
 #portfolio {
 	background: #CBE32D;
 	border-bottom: 10px solid #CC0000;
+/*  width: 100%;
+  height: 100%;*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: -20px;
 }
 
 #services {
