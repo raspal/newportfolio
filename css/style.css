@@ -115,6 +115,20 @@ p {
 	background: #3B3B3B;
 }
 
+.footercontainer {
+  /*background-color: #3B3B3B #2D2C2A;*/ color: #ffffff; /*height: 350px; margin-top: -20px;*/
+}
+
+.footerwidget {
+  width: 33%; height: 100%; float: left; text-align: left;
+}
+
+.footerul {
+  list-style: none; padding: 0; margin: 0;
+}
+
+
+
 #social {
 	background: #292929;
 	height: 100px;
