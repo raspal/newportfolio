@@ -76,6 +76,26 @@ p {
 	border-bottom: 10px solid #CC0000;
 }
 
+.portfoliobutton1 {
+	border-radius: 10%;
+	background-color: #337AB7;
+	border-color: #337AB7;
+	width: 100px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.portfoliobutton2 {
+	border-radius: 10%;
+	background-color: #ffffff;
+	border-color: #ffffff;
+	width: 100px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
 #portfolio {
 	background: #CBE32D;
 	border-bottom: 10px solid #CC0000;
@@ -86,6 +106,40 @@ p {
   margin-top: -20px;
   color: #000000;
 }
+
+.servicesbox {
+	height: 32%;
+	width: 30%;
+	border-radius: 3%;
+	color: #ffffff;
+	float: left;
+	margin: 1.0%;
+}
+
+.servicesbox1 {
+	background-color: #8CC251
+}
+
+.servicesbox2 {
+	background-color: #3B579D
+}
+
+.servicesbox3 {
+	background-color: #4B4B4B
+}
+
+.servicesbox4 {
+	background-color: #4CD964
+}
+
+.servicesbox5 {
+	background-color: #2E294E
+}
+
+.servicesbox6 {
+	background-color: #3B579D
+}
+
 
 #services {
 	background: #A8CD1B;
