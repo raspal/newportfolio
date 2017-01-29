@@ -6,8 +6,11 @@ a {text-decoration: none;}
 .fixed {
 	position: fixed; 
 	top: 0; 
-	height: 70px; 
+	height: 50px; 
+	text-align: center;
+	font-size: 1.0em;
 	z-index: 1;
+	margin-top: -25px;
 }
 
 body {
@@ -15,6 +18,10 @@ body {
 	font-family: 'open-sans-bold'; 
 	font-size: 18px;
 	text-align: center;
+}
+
+a:hover {
+	color: black;
 }
 
 h1 {
@@ -36,9 +43,10 @@ nav {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 70px;
+	height: 80px;
 	background: #CC0000;
 	text-align: center;
+	font-size: 1.5em;
 }
 
 nav li {
@@ -67,7 +75,8 @@ p {
 /* Newsletter Optin Styles */
 .optin {
 	color: #000000;
-	padding-top: 75px;
+	/*padding-top: 75px;*/
+	padding-top: 5%;
 }
 
 /* Screens Settings */
@@ -76,20 +85,56 @@ p {
 	border-bottom: 10px solid #CC0000;
 }
 
+.optinbutton {
+	color: /*black;*/ #414141;
+	/*border-radius: 20%;*/
+	background-color: /*orange;*/ #FFC33C;
+	border-color: /*orange;*/ #FFC33C;
+	width: 200px;
+	height: 100px;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.optinbutton a {
+	color: /*black;*/ #414141;
+	background-color: /*orange;*/ #FFC33C;
+	border-color: /*orange;*/ #FFC33C;
+}
+
+.optinbutton:hover {
+	color: /*black;*/ #FFC33C;
+	background-color: /*blue;*/ #414141;
+	border-color: /*blue;*/ #414141;
+}
+
+
+/*#414141
+#FFC33C*/
+
+
 .portfoliobutton1 {
-	border-radius: 10%;
-	background-color: #337AB7;
-	border-color: #337AB7;
+	/*border-radius: 10%;*/
+	background-color: green;
+	border-color: #000000;
 	width: 100px;
 	height: 50px;
 	font-size: 16px;
 	font-weight: bold;
 }
 
+.portfoliobutton1 a:hover {
+	background-color: blue;
+	border-color: #000000;
+}
+
 .portfoliobutton2 {
-	border-radius: 10%;
-	background-color: #ffffff;
-	border-color: #ffffff;
+	/*border-radius: 10%;*/
+	background-color: orange;
+	border-color: orange;
 	width: 100px;
 	height: 50px;
 	font-size: 16px;
@@ -198,9 +243,5 @@ p {
 	nav li a {
 		font-size: 14px;
 	}
-
+	
 }
-
-
-
-

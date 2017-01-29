@@ -7,10 +7,67 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- <meta name="robots" content="all,index,follow" /> -->
 
-	<title>Scroll To Top Then Fixed Navigation Effect With JQuery and CSS</title>
-	<meta name="description" content="Create a sticky navigation bar that remains fixed to the top after scroll" />
+	<title>New Portfolio</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- Main stylesheet /-->
+
+	<style>
+		.col{
+		    color:#fff;
+			float:left;
+			margin:2%;
+			width: 46%;
+		}
+		.one{
+		  background-color: #e95b33;
+		}
+
+		.two{
+		  background-color: #40b7d7;
+		}
+
+		.three{
+		  background-color: #1E1E1E;
+		}
+
+		.portfolio {
+		float: left;
+		/*margin:0;*/
+		width: 33%;	
+		}
+
+		.service {
+			height: 37%;
+			width: 30%;
+			border-radius: 3%;
+			color: #ffffff;
+			float: left;
+			margin: 1.0%;
+		}
+
+	@media screen and (max-width: 600px) { 
+		.col{
+			float: none;
+			margin:0;
+			width: 100%;
+		}
+		.portfolio {
+			float: none;
+			/*margin:0;*/
+			width: 100%;	
+		}
+		.service {
+			height: 100vh;
+			width: auto;
+			border-radius: 3%;
+			color: #ffffff;
+			float: none;
+			margin: 1.0%;
+			color: black;
+		}
+	}
+
+	</style>
 
 </head>
 
@@ -20,21 +77,40 @@
 
 	<!-- NEWSLETTER OPTIN  -->
 <!-- <div style="background-color: #F3FAB6; width: 100%; height: auto; padding: 10px;"> -->
-<div>
-<div style="float: left; padding-top: 90px; padding-left: 60px;"><img src="Website_Tips_Book_Cover_640_1.png" height="33%" width="200px;" alt="book"></div>
-<!-- <div class="newsletter"> -->
-<div class="optin">
+<!-- <div>
+<div style="float: left; padding-top: 90px; padding-left: 60px;"><img src="Website_Tips_Book_Cover_640_1.png" height="33%" width="100%;" alt="book"></div>
+
+<div class="newsletter">
+<div class="optin" style="width: 100%;">
 <h1>Yours Free: 101 Website Tips Even Your Web Developer Will be Excited to Learn</h1>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, asperiores nesciunt cum laudantium voluptatum, ullam dicta tempora nulla culpa, placeat et nobis voluptatem harum ipsa est. Deserunt dolor, consequuntur ut!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam natus perspiciatis aperiam quidem nobis maiores repudiandae numquam accusamus soluta ipsa officia delectus ratione, reiciendis eveniet quam totam odit tenetur voluptatibus.</p>
 <div>
-<button>Get it Now!</button>
+<a href="http://raspal.org/"><button class="optinbutton">Get it Now!</button></a>
 </div>
-<!-- </div> -->
-<!-- </div></div> -->
+</div>
+</div> -->
 
 <!-- NEWSLETTER OPTIN START -->
 
+
+
+<div id="container">
+  <div class="row">
+  	<div class="col one">
+			<p><img src="Website_Tips_Book_Cover_640_1.png" height="40%" width="60%;" alt="book"></p>
+		</div>
+		<div class="col two">
+			<h1>This is the Title</h1>
+			<p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. </p><p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. </p>
+		</div>
+  </div>
+</div>
+
+
+
+
+<div>
 	<nav>
 		<ul>
 			<li><a href="#">Home</a></li>
@@ -45,6 +121,7 @@
 			<li><a href="#">Contact</a></li>
 		</ul>
 	</nav>
+</div>
 
 </section>
 
@@ -56,7 +133,7 @@
 <br>
 <h2 class="textalign">Portfolio</h2>
 <br>
-<div style="width: 33%; height: 100%; float: left">
+<!-- <div style="width: 33%; height: 100%; float: left">
 <img src="MyPortfolio_Screenshot1.png" alt="MyPortfolio_Screenshot.png" width="90%"><br><br>
 <h3 class="textalign">My Portfolio</h3>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam voluptates corporis amet corrupti aliquam totam voluptas quibusdam architecto maiores. Ea vel ad aspernatur repudiandae sunt autem, laudantium, nemo inventore enim?</p>
@@ -73,7 +150,35 @@
 <h3 class="textalign">Tribute page Template</h3>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam voluptates corporis amet corrupti aliquam totam voluptas quibusdam architecto maiores. Ea vel ad aspernatur repudiandae sunt autem, laudantium, nemo inventore enim?</p>
 <button class="portfoliobutton1">View Project</button>&nbsp; <button class="portfoliobutton2">Hire me</button>
+</div> -->
+
+
+
+
+<div id="container">
+  <div class="row">
+  	<div class="portfolio one">
+			<img src="MyPortfolio_Screenshot1.png" alt="MyPortfolio_Screenshot.png" width="90%"><br><br>
+			<h3 class="textalign">My Portfolio</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam voluptates corporis amet corrupti aliquam totam voluptas quibusdam architecto maiores. Ea vel ad aspernatur repudiandae sunt autem, laudantium, nemo inventore enim?</p>
+		</div>
+		<div class="portfolio two">
+			<img src="UK_Homepage_Clone_Screenshot.png" alt="UK_Homepage_Clone_Screenshot" width="90%"><br><br>
+			<h3 class="textalign">UK Homepage</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam voluptates corporis amet corrupti aliquam totam voluptas quibusdam architecto maiores. Ea vel ad aspernatur repudiandae sunt autem, laudantium, nemo inventore enim?</p>
+		</div>
+		<div class="portfolio three">
+			<img src="TributePageBoilerplate_Screenshot.png" alt="TributePageBoilerplate_Screenshot" width="90%"><br><br>
+			<h3 class="textalign">Tribute Page</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam voluptates corporis amet corrupti aliquam totam voluptas quibusdam architecto maiores. Ea vel ad aspernatur repudiandae sunt autem, laudantium, nemo inventore enim?</p>
+		</div>
+  </div>
 </div>
+
+
+
+
+
 
 </section>
 
@@ -84,7 +189,7 @@
 
 <section id="services">
 <h2>SERVICES</h2>
-	<div class="servicesbox servicesbox1">
+	<!-- <div class="servicesbox servicesbox1">
 	<h3>Service 1</h3>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aperiam inventore laboriosam, soluta nam! At quae veritatis laborum eaque, distinctio nobis similique architecto obcaecati rerum doloremque voluptatibus molestiae ratione, ducimus!</p></div>
 	<div class="servicesbox servicesbox2">
@@ -102,7 +207,32 @@
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A veritatis iste dignissimos voluptates odit, nostrum est deserunt nulla rerum voluptate totam temporibus dolorem adipisci tempore ut facilis omnis nemo expedita!</p></div>
 	<div class="servicesbox servicesbox6">
 	<h3>Service 6</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis placeat magnam modi ipsa eius ducimus vero consequuntur quam beatae aut velit doloribus, blanditiis delectus, laborum, libero temporibus impedit ab! Debitis.</p></div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis placeat magnam modi ipsa eius ducimus vero consequuntur quam beatae aut velit doloribus, blanditiis delectus, laborum, libero temporibus impedit ab! Debitis.</p></div> -->
+
+
+
+
+
+<div id="container">
+  <div class="row">
+  		<div class="service servicesbox1">
+			<p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. </p><p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. </p>
+		</div>
+		<div class="service servicesbox2">
+			<p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. </p><p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. </p>
+		</div>
+		<div class="service servicesbox3">
+			<p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. </p><p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. </p>
+		</div>
+  </div>
+</div>
+
+
+
+
+
+
+
 
 </section>
 
