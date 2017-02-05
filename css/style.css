@@ -270,17 +270,17 @@ p {
 		}
 
 	@media only screen and (max-width: 600px) { 
-		.col{
+		/*.col{
 			float: none;
 			margin:0;
 			width: 100%;
-		}
+		}*/
 		.portfolio {
 			float: none;
-			/*margin:0;*/
+			margin:0;
 			width: 100%;	
 		}
-		.service {
+		/*.service {
 			height: 100vh;
 			width: auto;
 			border-radius: 3%;
@@ -288,12 +288,36 @@ p {
 			float: none;
 			margin: 1.0%;
 			color: black;
-		}
+		}*/
 		nav li {
-		padding: 24px 4px;
+		padding: 20px 2px;
+		display: inline;
 		}
 		nav li a {
-			font-size: 14px;
+			font-size: 10px;
+		}
+
+}
+
+@media only screen and (max-width: 500px) { 
+
+		nav li {
+		padding: 0 2px;
+		}
+		nav li a {
+			font-size: 12px;
+		}
+
+}
+
+@media only screen and (max-width: 320px) { 
+
+		nav li {
+		padding: 0 2px;
+		display: inline;
+		}
+		nav li a {
+			font-size: 12px;
 		}
 
 }
